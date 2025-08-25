@@ -48,8 +48,15 @@ tracing-subscriber.workspace = true
 url.workspace = true
 uuid.workspace = true
 
+ethereum_ssz_derive.workspace = true
+
 [dev-dependencies]
 tracing-subscriber.workspace = true
+criterion = "0.5"
 
 [build-dependencies]
 tonic-build.workspace = true
+
+[[bench]]
+name = "decoding_bench"
+harness = false

@@ -77,6 +77,8 @@ pub type ExecutionPayloadHeaderElectra =
 pub type ExecutionPayload = lh_types::execution_payload::ExecutionPayload<MainnetEthSpec>;
 pub type ExecutionPayloadElectra =
     lh_types::execution_payload::ExecutionPayloadElectra<MainnetEthSpec>;
+pub type ExecutionPayloadDeneb =
+    lh_types::execution_payload::ExecutionPayloadDeneb<MainnetEthSpec>;
 
 // Get header
 pub type BuilderBid = lh_types::builder_bid::BuilderBid<MainnetEthSpec>;
